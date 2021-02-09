@@ -1,8 +1,5 @@
-# React Wedding Card
 
 ## Introduce
-- 간단한 [React.js](https://reactjs.org/) 라이브러리와 모듈 기반의 청첩장 웹 앱입니다. 제 소개로 만난 두 친구의 결혼식 선물로 만들었습니다.
-- Sample: https://uyu423.github.io/react-wedding-card/
 
 ## Preparations
 ```bash
@@ -16,9 +13,6 @@ $ npm start
 ```
 
 ## Build & Deploy (using GitHub Page)
-- 빌드하면 `build/*` 내에 정적 파일들이 생성됩니다. 정적 파일을 [GitHub Page](https://pages.github.com/) 등으로 바로 호스팅 할 수 있습니다. 자세한 내용은 [여기](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment)를 참고
-- 배포시 `create-react-app`에 내장된 기능과 `gh-pages`를 사용합니다. (`package.json`에 포함)
-- 정적 파일 배포를 위해서는 `package.json`의 `homepage` 값을 적절히 수정해야 합니다. #
 ```bash
 $ npm run build
 $ npm run deploy
@@ -48,12 +42,4 @@ $ npm run deploy
 
 ### HTML & Open Graph
 - HTML과 Open Grpah Meta Tag를 동적으로 변경하는 방법을 찾을 수 없어 `public/index.html`을 직접 수정해야합니다. 파일을 참고하세요.
-
-![image](https://user-images.githubusercontent.com/8033320/34060722-43838452-e228-11e7-8990-05d426bb2e29.png)
-
-- Open Graph 미리보기용 이미지는 `public/og_image.jpg`를 사용하며 `index.html`의 `og:image` Meta Property의 content를 수정하면 됩니다. 웹 상에 업로드 된 전체 URL을 입력해야됩니다.
-- Facebook에서 제공하는 [Open Grpah Debugger](https://developers.facebook.com/tools/debug/)를 통해 Open Grpah 결과를 미리 볼 수 있습니다.
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 # msNme
