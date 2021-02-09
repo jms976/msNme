@@ -34,7 +34,7 @@ export default {
   },
   bridal: {
     name: '장멍수',
-    image: require('./Image/bridal.jpeg'),
+    image: require('./Image/tom.png'),
     phone: '+8201033719178',
     facebook: false, // if false, not showing facebook icon
     father: '아빠',
@@ -43,7 +43,7 @@ export default {
   },
   groom: {
     name: '장맹은',
-    image: require('./Image/groom.jpeg'),
+    image: require('./Image/jerry.png'),
     phone: '+821022222222',
     facebook: false,
     father: '아버님',
@@ -51,7 +51,7 @@ export default {
     position: '장녀',
   },
   image: {
-    header: require('./Image/header.jpg'),
+    header: require('./Image/tomNjerry.png'),
     gallery: gallery.map(item => ({
       original: item,
       thumbnail: item,
