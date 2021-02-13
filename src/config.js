@@ -48,7 +48,7 @@ export default {
     facebook: false,
     father: '아버님',
     mother: '어머님',
-    position: '장녀',
+    position: '말썽꾸러기',
   },
   image: {
     header: require('./Image/tomNjerry.png'),
