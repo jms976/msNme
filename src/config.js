@@ -1,10 +1,6 @@
 const gallery = [ // galley image list
-  require('./Image/gallery/1.png'),
-  require('./Image/gallery/2.jpg'),
-  require('./Image/gallery/3.jpg'),
-  require('./Image/gallery/4.jpg'),
-  require('./Image/gallery/5.jpg'),
-  require('./Image/gallery/6.jpg'),
+  require('./Image/gallery/list01.jpg'),
+  require('./Image/gallery/list02.jpg'),
 ];
 
 export default {
@@ -25,12 +21,12 @@ export default {
   title: 'Wedding Invitation', // recomanded English
   wedding: {
     place: {
-      name: '예쁜 예식장 3F 아름다운홀',
-      address: '서울 영등포구 여의도동 60 63빌딩',
+      name: '보타닉 웨딩홀 B1',
+      address: '서울시 강서구 마곡나루역',
       latitude: 37.51990006878117,
       longitude: 126.94020220536675,
     },
-    at: '2018-01-27 12:00',
+    at: '2021-11-07 15:30',
   },
   bridal: {
     name: '장멍수',
