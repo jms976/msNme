@@ -1,6 +1,6 @@
 const gallery = [ // galley image list
-  require('./Image/gallery/list01.jpg'),
-  require('./Image/gallery/list02.jpg'),
+  require('./Image/gallery/list01.JPG'),
+  require('./Image/gallery/list02.JPG'),
 ];
 
 export default {
